@@ -1,0 +1,45 @@
+.footer {
+  height: 200px;
+  margin: 0px;
+  background-color: antiquewhite;
+}
+
+.footer > ul {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #243a73;
+  padding: 0;
+}
+
+.footer > ul > li {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer ul a {
+  text-decoration: none;
+  background: none;
+  color: white;
+  display: flex;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+/* Hover effect with ease */
+.footer ul a:hover {
+  color: #f0a500; /* Change text color on hover */
+  transition: color 0.3s ease-in-out; /* Ensures smooth transition */
+}
+
+/* Footer text styling */
+.footer > p {
+  background-color: #243a73;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

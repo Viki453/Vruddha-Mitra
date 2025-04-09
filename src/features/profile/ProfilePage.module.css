@@ -1,0 +1,76 @@
+.mainContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #a5becc; /* Light gray */
+  width: 300px; /* Ensure it has a defined width */
+  height: 85vh; /* Full height */
+  margin-left: 15px;
+  border-radius: 30px;
+}
+
+.img {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+}
+
+.sideBarList {
+  list-style: none;
+  background-color: transparent;
+}
+
+.sideBarList > li {
+  font-size: 1rem;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.sideBarList a {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+
+.sideBarList .inactive {
+  background-color: transparent;
+  text-decoration: none !important;
+  color: aqua;
+}
+
+.sideBarList :global(a.inactive) {
+  background-color: transparent;
+  text-decoration: none;
+  color: aqua;
+}
+
+.sideBarList a:hover {
+  /* background-color: #7fb3d5; */
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sideBarList :global(a.active) {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+}
+.main {
+  flex: 1;
+  padding: 40px;
+  background-color: rgb(123, 172, 155);
+  margin-right: 15px;
+  border-radius: 30px;
+}
+
+.main > * {
+  background-color: transparent;
+}

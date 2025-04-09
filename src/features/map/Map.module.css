@@ -1,0 +1,8 @@
+.map {
+  position: relative;
+  height: 80vh;
+  /* width: 3fr; */
+  margin: 20px;
+
+  color: black;
+}

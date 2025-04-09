@@ -1,0 +1,22 @@
+.vCard {
+  margin: 20px;
+  background-color: rgba(128, 128, 128, 0.438);
+  padding: 10px;
+  height: 150px;
+}
+
+.vCard * {
+  background-color: transparent;
+}
+
+.details {
+  margin: 10px;
+}
+
+img {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  float: left;
+}

@@ -1,0 +1,112 @@
+.vDet {
+  position: relative;
+  background-color: white;
+  height: 80vh;
+  width: 3fr;
+  margin: 20px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+}
+
+.vDet > .basicInfo > * {
+  color: black;
+  background-color: transparent;
+}
+
+.basicInfo {
+  background-color: transparent;
+  color: black;
+}
+
+.vDet > .basicInfo > button {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: bisque;
+}
+
+.vDet > .basicInfo > img {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.genInfo {
+  background-color: transparent;
+}
+
+.genInfo > * {
+  background-color: transparent;
+  color: black;
+  margin: 10px;
+}
+
+.wisdom {
+  background-color: transparent;
+}
+
+.wisdom > * {
+  background-color: transparent;
+  color: black;
+  margin: 10px;
+}
+
+.address {
+  background-color: transparent;
+}
+
+.address > * {
+  background-color: transparent;
+  color: black;
+  margin: 10px;
+}
+
+.preferences {
+  background-color: transparent;
+  display: flex;
+  gap: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.preferences > div {
+  background-color: transparent;
+}
+
+.preferences > div > * {
+  background-color: transparent;
+  color: black;
+}
+
+.preferences > div > * > * {
+  background-color: transparent;
+  color: black;
+}
+
+.decision {
+  background-color: transparent;
+}
+
+.decision > * {
+  background-color: transparent;
+  color: black;
+}
+
+button {
+  height: 50px;
+  width: 90px;
+  background-color: black;
+  margin: 10px;
+}
+
+.reserve {
+  background-color: orange;
+}
+
+.back {
+  background-color: red;
+}

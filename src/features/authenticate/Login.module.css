@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh; /* Make it take the full viewport height */
+  width: 100%; /* Ensure it spans the full width */
+  padding: 10px;
+  background-color: transparent;
+  gap: 200px;
+  overflow: hidden;
+}
+
+.progressContainer {
+  width: 500px;
+  background: #ddd;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.progressBar {
+  height: 100%;
+  width: 0;
+  background: #31a8ed;
+  transition: width 2s ease-in-out;
+}
+
+.formContainer {
+  height: 500px;
+}
+
+.formOne {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center; /* Center form items horizontally */
+  text-align: center;
+}
+
+input {
+  background-color: aliceblue;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

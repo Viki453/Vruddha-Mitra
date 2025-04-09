@@ -1,0 +1,43 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.list {
+  background-color: aqua;
+  width: 30vw;
+  height: 80vh;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.map {
+  position: relative;
+  background-color: white;
+  height: 80vh;
+  width: 3fr;
+  margin: 20px;
+  color: black;
+  font-size: 10rem;
+}
+
+.vList {
+  background-color: aqua;
+  width: 30vw;
+  height: 100vh;
+  border-radius: 50px;
+  margin: 20px;
+  overflow-y: auto;
+}
+
+.vList > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vList > ul > li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
